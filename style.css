@@ -1,0 +1,22 @@
+body{
+  background-color: rgb(1, 99, 99);
+  font-family: Arial;
+  color: whitesmoke;
+  }
+
+h1{  
+  text-align: center;
+  margin-top: 100px;  
+  font-size: 50px;
+}
+
+
+.clock-display{
+  font-size: large;
+  text-align: center;
+  font-size: 50px;
+  margin-top: auto;
+}
+
+
+
