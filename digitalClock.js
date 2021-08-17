@@ -1,6 +1,6 @@
 
 function displayClockTime(){
-  // write HH:MM:SS AM (or PM) to browser
+  //write HH:MM:SS AM (or PM) to browser
   const today = new Date();
 
   const clockHours = convertAmPm( today.getHours());  
@@ -8,7 +8,7 @@ function displayClockTime(){
   const clockSeconds = padWithZeros(today.getSeconds());
 
   const timeDisplayHandle = document.getElementById('time-text')
-  timeDisplayHandle.textContent = clockHours[0]+":"+clockMinutes+":"+clockSeconds+" "+clockHours[1];
+  timeDisplayHandle.textContent = clockHours[0]+":"+clockMinutes+":"+clockSeconds+" "+clockHours[1];  
 }
 
 function displayDate(){
