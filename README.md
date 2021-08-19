@@ -3,7 +3,7 @@ This is simple digital clock project I completed using HTML, CSS, and JS. The fi
 making them far more dynamic and interesting. The second objective was to experiment with the Document Object Model (DOM) and practice manipulation of elements 
 using DOM functions and commands.
 
-<p>You can visit the Digital Clock here:  <a href="https://davidcliffe.github.io/personal-website/index.html"> here</a> </p>
+<p>You can see the Digital Clock here:  <a href="https://davidcliffe.github.io/digital-clock/"> here</a> </p>
 
 ## Key Learnings
   * Javascript (basic level) can be learned quickly and provides numerous ways to add functionality to webpages.
