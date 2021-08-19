@@ -1,4 +1,3 @@
-
 function displayClockTime(){
   //write HH:MM:SS AM (or PM) to browser
   const today = new Date();
@@ -88,6 +87,10 @@ const listOfMonths = [
   'November',
   'December'
 ];
+// load clock display immediately so no delay when opening/ refreshing page
+displayClockTime(); 
+displayDate();   
 
+//Then use setInterval() to update each 1.0 sec 
 setInterval(displayClockTime,1000);
 setInterval(displayDate,1000);   
